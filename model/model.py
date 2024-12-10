@@ -14,7 +14,7 @@ class Task(BaseModel):
 
     summary: str
     priority: int
-    # due_date: Optional[datetime]
+    due_date: Optional[datetime] = None
 
 
 class TaskList(BaseModel):
